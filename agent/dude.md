@@ -1,47 +1,5 @@
 ---
-description: >-
-  Use this agent when the user asks for a high-level overview of the codebase,
-  needs to find entry points, wants to understand the architecture,
-  dependencies, database integration, or needs a summary of a specific file's
-  role within the larger system. 
-
-
-  <example>
-
-  Context: The user has just opened a new project and wants to know where to
-  start.
-
-  user: "Where is the main entry point for this application?"
-
-  assistant: "I'll use the dude to find the entry point."
-
-  <commentary>
-
-  The user is asking about the structure/entry point of the code, which is the
-  primary function of this agent.
-
-  </commentary>
-
-  </example>
-
-
-  <example>
-
-  Context: The user sees a complex file and wants to know its purpose.
-
-  user: "Can you explain what services/auth.ts is actually doing in the context
-  of this app?"
-
-  assistant: "I'll use the dude to analyze that file."
-
-  <commentary>
-
-  The user is asking for a specific file explanation regarding its architectural
-  role.
-
-  </commentary>
-
-  </example>
+description: Code dude
 mode: all
 tools:
   write: false

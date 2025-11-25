@@ -1,47 +1,5 @@
 ---
-description: >-
-  Use this agent when the user asks for help, explanations, or summaries
-  regarding Python, Helm, or Terraform code. It is specifically designed for
-  users who already know JavaScript and Go but are learning these specific
-  technologies.
-
-
-  <example>
-
-  Context: User uploads a Terraform file and wants to know what it does.
-
-  user: "Can you look at this main.tf?"
-
-  assistant: "I will use the tutor to analyze the Terraform
-  configuration."
-
-  <commentary>
-
-  The user is asking about a Terraform file, which falls under the specific
-  domain of this agent.
-
-  </commentary>
-
-  </example>
-
-
-  <example>
-
-  Context: User asks about a specific Python function.
-
-  user: "How does the enumerate function work in Python?"
-
-  assistant: "I will use the tutor to explain the enumerate
-  function."
-
-  <commentary>
-
-  The user is asking for a specific keyword explanation, which triggers the
-  specific-query mode of this agent.
-
-  </commentary>
-
-  </example>
+description: Code tutor
 mode: all
 tools:
   write: false
